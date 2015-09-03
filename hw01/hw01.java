@@ -20,7 +20,7 @@ System.out.println("#     -----------      #");
 System.out.println("#     | Welcome |      #");
 System.out.println("#     -----------      #");
 System.out.println("#   ^  ^  ^  ^  ^  ^   #");
-System.out.println("#  / \\// \\/ \\/ \\/ \\/ \\  #");
+System.out.println("#  / \\/ \\/ \\/ \\/ \\/ \\  #");
 System.out.println("#  |-B--T--M--2--1--9-| #");
 System.out.println("#  \\ /\\ /\\ /\\ /\\ /\\ /  #");
 System.out.println("#   v  v  v  v  v  v   #");
