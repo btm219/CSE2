@@ -1,11 +1,11 @@
-import java.util.Scanner;
-public class methods{
-    public static void main(String [] args){
+import java.util.Scanner; //imports the scanner
+public class methods{ //declares the class
+    public static void main(String [] args){ //declares main method
        
        double avg;
        double middle;
        
-       Scanner myScanner = new Scanner (System.in);
+       Scanner myScanner = new Scanner (System.in); //prompt for user input and initializes the corresponding variables
         System.out.println("Enter in the smallest number: ");
         double a = myScanner.nextDouble();
         System.out.println("Enter in the second smallest number: ");
@@ -31,15 +31,17 @@ public class methods{
        middle = median(e,f);
        print(avg,middle);
     }
-    
+    //method to do the math for the mean
     public static double mean(double a, double b, double c, double d, double e, double f, double g, double h, double i, double j){
         double avg = (a+b+c+d+e+f+g+h+i+j)/10;
         return avg;
     }
+    //method to do the math for the median
     public static double median(double e, double f){
         double middle = (e+f)/2;
         return middle;
     }
+    //method that prints the answers
     public static void print(double avg, double middle){
         System.out.println("The mean is: " + avg);
         System.out.println("The median is: " + middle);
