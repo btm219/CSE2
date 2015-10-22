@@ -1,9 +1,13 @@
-import java.util.Scanner;
+//Ben Meyerson
+//10/23/15
+//lab09
+//this program shows the results of a flip of a coin n number of times
+import java.util.Scanner; //imports the scanners
 import java.lang.Math;
-public class flip{
+public class flip{ //defines the class
     public static String flip(){ //for one flip
         double rand = Math.random();
-        if (rand>0.5)
+        if (rand>0.5) //if flip is greater than 0.5 it is heads, otherwise it's tails
             return "Heads";
         else
             return "Tails";
@@ -24,11 +28,11 @@ public class flip{
                     tails++;
             }
         
-     return "Heads: " + heads + "/Tails: " + tails;
+     return "Heads: " + heads + "/Tails: " + tails; //return statement
      }
    } 
-    public static void main(String [] args){
-        Scanner myScanner = new Scanner (System.in);
+    public static void main(String [] args){ //main method
+        Scanner myScanner = new Scanner (System.in); //initializes the new scanner
         boolean count = true;
         while(count){
             System.out.println("Enter how many times the coin will be flipped (from 0 to 100): ");
